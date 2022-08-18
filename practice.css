@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  background-color: #D3D3D3;
+}
+div {
+  min-height: 200px;
+  max-width: 300px;
+  padding: 50px;
+  margin: 500px auto;
+  background-color: red;
+}
+
+/* For the Vanilla version of Scroll Reveal */
+/* .reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 1.2s ease;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+} */
